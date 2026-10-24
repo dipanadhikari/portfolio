@@ -58,7 +58,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-copy { align-self: center; padding: 5px 0 32px; }
 .availability { display: inline-flex; align-items: center; gap: 9px; color: #48645c; font-size: 9px; letter-spacing: .12em; font-weight: 700; }
 .availability-dot { width: 7px; height: 7px; border-radius: 50%; background: #78a484; box-shadow: 0 0 0 4px #e2ece1; }
-.hero-kicker { margin: 29px 0 12px; color: var(--green); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.hero-profile { display: flex; align-items: center; gap: 15px; margin: 0 0 18px; }
+.profile-photo { display: block; width: 70px; height: 70px; flex: 0 0 auto; border: 3px solid white; border-radius: 50%; object-fit: cover; object-position: 36% center; box-shadow: 0 3px 14px rgba(25, 42, 41, .12); }
+.hero-kicker { margin: 0; color: var(--green); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: var(--serif); }
 .hero h1 { margin-bottom: 20px; color: var(--ink); font-size: clamp(44px, 5.2vw, 69px); line-height: 1.08; letter-spacing: -.065em; font-weight: 600; }
@@ -81,29 +83,7 @@ h1, h2, h3 { font-family: var(--serif); }
 .visual-topline, .visual-footer { display: flex; justify-content: space-between; color: #74817c; font-size: 8px; font-weight: 700; letter-spacing: .11em; }
 .visual-topline { margin-bottom: 11px; }
 .blueprint { position: relative; height: 374px; overflow: hidden; background: #203e3a; }
-.blueprint-grid {
-  position: absolute;
-  inset: 0;
-  opacity: .4;
-  background-image: linear-gradient(rgba(201, 225, 201, .10) 1px, transparent 1px), linear-gradient(90deg, rgba(201, 225, 201, .10) 1px, transparent 1px);
-  background-size: 32px 32px;
-}
-.blueprint::before, .blueprint::after { content: ''; position: absolute; border: 1px solid rgba(203, 227, 200, .12); border-radius: 50%; }
-.blueprint::before { width: 310px; height: 310px; top: 31px; left: 50%; transform: translateX(-50%); }
-.blueprint::after { width: 420px; height: 420px; top: -24px; left: 50%; transform: translateX(-50%); }
-.bridge-art { position: absolute; z-index: 1; left: 2%; top: 6%; width: 96%; height: 84%; overflow: visible; }
-.art-faint { stroke: rgba(217, 234, 210, .24); stroke-width: 1; }
-.art-main { stroke: #d3e7a3; stroke-width: 1.5; }
-.art-deck { stroke: #f0f2da; stroke-width: 2; }
-.art-support { stroke: #9bc2a2; stroke-width: 1; stroke-dasharray: 4 4; }
-.art-dash { stroke: rgba(211, 231, 163, .56); stroke-width: 1; stroke-dasharray: 3 5; }
-.art-node { fill: #d3e7a3; }
-.art-measure { stroke: #aac8a9; stroke-width: 1; }
-.drawing-label { position: absolute; z-index: 2; color: #cfdeca; font-size: 8px; letter-spacing: .13em; }
-.drawing-label span { margin-right: 6px; color: #b8d882; }
-.label-one { top: 26%; left: 8%; }
-.label-two { right: 7%; bottom: 25%; }
-.drawing-note { position: absolute; z-index: 2; right: 7%; bottom: 8%; color: rgba(229, 237, 217, .62); font-size: 7px; line-height: 1.8; letter-spacing: .12em; text-align: right; }
+.structure-photo { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .visual-footer { margin-top: 11px; }
 .visual-index { color: var(--green); }
 .hero-stats { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 52px; padding: 24px 0 0; border-top: 1px solid var(--line); }
