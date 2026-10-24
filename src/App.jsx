@@ -54,6 +54,16 @@ const experiences = [
       'Prepared the daily worksheet of the team and updated the leaders.',
     ],
   },
+  {
+    category: 'OTHER EXPERIENCE',
+    role: 'Trial',
+    company: 'AVIC KDN Airport Engineering Pvt. Ltd., Kathmandu',
+    period: 'February 2023—February 2023 (20 Days)',
+    highlights: [
+      'Self-learned new software and presented the sectional drawing of the hangar project of Tribhuvan International Airport.',
+      'Exceeded the provided work by the Team Leader in AutoCAD Civil 3D software.',
+    ],
+  },
 ];
 
 const skillGroups = [
@@ -208,6 +218,7 @@ function App() {
                 <article className="experience-card" key={job.role}>
                   <div className="experience-index">0{index + 1}</div>
                   <div className="experience-main">
+                    {job.category && <span className="trial-marker">{job.category}</span>}
                     <div className="experience-title-row">
                       <div>
                         <h3>{job.role}</h3>
@@ -221,10 +232,6 @@ function App() {
                   </div>
                 </article>
               ))}
-            </div>
-            <div className="trial-note">
-              <span className="trial-marker">OTHER EXPERIENCE</span>
-              <p><strong>Trial: AVIC KDN Airport Engineering Pvt. Ltd., Kathmandu</strong> February 2023—February 2023 (20 Days)</p>
             </div>
           </div>
         </section>
