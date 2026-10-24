@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CV of Dipan Adhikari, Civil Engineer." />
+    <title>Dipan Adhikari | CV</title>
+    <style>
+      :root {
+        --green: #1f423d;
+        --green-soft: #5b766e;
+        --line: #dfe6df;
+        --text: #1d2a29;
+      }
+      * { box-sizing: border-box; }
+      body {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 42px 48px 56px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+        line-height: 1.5;
+      }
+      .toolbar { display: flex; justify-content: flex-end; margin-bottom: 22px; }
+      .toolbar button {
+        border: none;
+        background: var(--green);
+        color: #fff;
+        padding: 11px 16px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 {
+        margin-bottom: 8px;
+        font-size: 38px;
+        letter-spacing: -0.05em;
+      }
+      .header-line {
+        padding-bottom: 16px;
+        border-bottom: 2px solid var(--green);
+      }
+      .cv-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+      .profile-photo {
+        width: 104px;
+        height: 104px;
+        flex: 0 0 auto;
+        border: 3px solid #edf1eb;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 36% center;
+      }
+      .headline {
+        margin-bottom: 12px;
+        color: var(--green-soft);
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 18px;
+        font-size: 12px;
+      }
+      .contact a { color: var(--text); text-decoration: none; }
+      section { margin-top: 28px; }
+      h2 {
+        margin-bottom: 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--line);
+        color: var(--green);
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+      p, li { font-size: 12px; }
+      .section-body { margin-top: 8px; }
+      .job { margin-bottom: 18px; }
+      .job-head, .edu-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+      }
+      .job-head h3, .edu-head h3 {
+        margin: 0 0 5px;
+        font-size: 15px;
+      }
+      .company {
+        margin: 0 0 8px;
+        color: var(--green);
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .period {
+        flex-shrink: 0;
+        color: var(--green-soft);
+        font-size: 11px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      li { margin-bottom: 5px; }
+      .skills-grid {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 6px 18px;
+      }
+      .skills-grid strong { color: var(--green); font-size: 12px; }
+      .muted { color: var(--green-soft); }
+      @media (max-width: 700px) {
+        body { padding: 28px 20px 40px; }
+        .cv-header { align-items: flex-start; flex-direction: column-reverse; gap: 16px; }
+        .profile-photo { width: 80px; height: 80px; }
+        .job-head, .edu-head { flex-direction: column; gap: 2px; }
+        .skills-grid { grid-template-columns: 1fr; }
+      }
+      @media print {
+        body { max-width: none; padding: 0; }
+        .toolbar { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar"><button type="button" onclick="window.print()">Print / Save as PDF</button></div>
+    <div class="header-line cv-header">
+      <div>
+        <h1>Dipan Adhikari</h1>
+        <p class="headline">Civil Engineer</p>
+        <div class="contact">
+          <a href="mailto:dipanadhikari30@gmail.com">dipanadhikari30@gmail.com</a>
+          <a href="https://www.linkedin.com/in/dipan-adhikari-a17b29190">www.linkedin.com/in/dipan-adhikari-a17b29190</a>
+          <a href="tel:+447352129589">07352129589</a>
+        </div>
+      </div>
+      <img class="profile-photo" src="/images/dipan-adhikari-profile.jpg" alt="Dipan Adhikari wearing safety equipment at a construction site" />
+    </div>
+
+    <section>
+      <h2>Personal Statement:</h2>
+      <p class="section-body">A highly skilled Civil Engineer with over three years of diverse experience in site supervision, technical design, and team leadership. My proven track record includes successfully coordinating international teams and translating complex drawings into real-world projects using various engineering software. I am currently advancing my expertise through a postgraduate degree in Civil Engineering with Sustainability with Industrial Placement. I am now seeking an industrial placement or part-time role where I can apply my integrated knowledge of sustainable practices and practical project execution to make meaningful contributions to your organisation’s objectives.</p>
+    </section>
+
+    <section>
+      <h2>Technical skills</h2>
+      <div class="skills-grid section-body">
+        <strong>Designing Software:</strong>
+        <span>AutoCAD, SKETCHUP, Civil 3D, ETABS, SAP2000, STAAD Pro</span>
+        <strong>Rock Engineering Software:</strong>
+        <span>Phase2, Dips, Slide, UnWedge, Rocscience software</span>
+        <strong>Intermediate understanding of Microsoft Office Package</strong>
+        <span></span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Skills, Certifications and Achievements</h2>
+      <ul class="section-body">
+        <li>Certified Civil Engineer from Nepal Engineering Association.</li>
+        <li>AutoCAD Civil 3D 10-day online course: Nepal Engineering Academy</li>
+        <li>Online GIS modelling and remote sensing using Google Earth Engine: Khwopa Engineering College</li>
+        <li>AutoCAD training: Khwopa Engineering College</li>
+        <li>SAP2000 training: Khwopa Engineering College</li>
+        <li>Geographic Information System: S4W-Nepal</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Other Skills</h2>
+      <ul class="section-body">
+        <li>Good communication skills while working in an international company and with people while working in AVIC KDN Airport Engineering Pvt. Ltd.</li>
+        <li>Used Google Calendar and Outlook to complete the project work on time.</li>
+        <li>Flexible working during nighttime, which helped the company to make progress during the NOTAM period.</li>
+        <li>Learned and used new software (Phase2, Gantt Chart) during dissertation work and led the project group to complete it on time.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education:</h2>
+      <div class="job section-body">
+        <div class="edu-head">
+          <h3>MSc in Civil Engineering with Sustainability with Industrial Placement:</h3>
+          <span class="period">University of East London 2025-Present</span>
+        </div>
+        <p class="company">Modules: Advanced Structural Analysis, Circular Economy and Sustainability, Environmental Impact Assessment, Mental Wealth Professional Life</p>
+        <p>Dissertation: Effect of Corrosion in RC Column</p>
+      </div>
+      <div class="job section-body">
+        <div class="edu-head">
+          <h3>Bachelor in Civil Engineering:</h3>
+          <span class="period">Khwopa Engineering College 2016-2022</span>
+        </div>
+        <p class="company">Modules: Rock Engineering, Transportation Engineering, Estimation and Valuation, Design of Steel and Concrete Structure, Sanitary Engineering, Hydropower Engineering, Geographic Information Systems (GIS)</p>
+        <p>Dissertation: Design of Hydro Tunnel and Support System</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <div class="job section-body">
+        <div class="job-head">
+          <h3>Site Engineer:</h3>
+          <span class="period">AVIC KDN Airport Engineering Pvt. Ltd., Kathmandu October 2024 – August 2025</span>
+        </div>
+        <ul>
+          <li>Supervised the workflow on the site as per the site conditions.</li>
+          <li>Coordinate with supervising engineers and team leaders regarding the workflow of the work.</li>
+          <li>Coordinate with survey engineers and site supervisors and manage the working environment.</li>
+          <li>Collaborated with the technical department engineering regarding the work progress and executed the work as per the drawings, specifications and terms and conditions.</li>
+          <li>Cooperated with the Chinese site supervisor during the NOTAM duration at nighttime.</li>
+          <li>Boosted the daily work progress by 10% by implementing different techniques and assigning the work to the team members.</li>
+          <li>Evaluated and assisted the HSE experts during work by following safety precautions.</li>
+        </ul>
+      </div>
+      <div class="job section-body">
+        <div class="job-head">
+          <h3>Team Leader:</h3>
+          <span class="period">Entegra Sources Engineering Service, Kathmandu March 2023 – June 2024</span>
+        </div>
+        <ul>
+          <li>Managed the work and allocated the task to the team.</li>
+          <li>Modelled the AutoCAD drawing and conducted the simulation of the structural drawings in civil analysis software.</li>
+          <li>Attended different meetings with managers to provide the work progress of the team.</li>
+          <li>Arranged meetings with team members to collect the daily work progress.</li>
+          <li>Deal with clients and different departments for smooth workflows.</li>
+          <li>Improved team productivity by 5% after handling the position.</li>
+          <li>Assisted the Project Manager during several meetings and changed the system with the team to increase productivity.</li>
+        </ul>
+      </div>
+      <div class="job section-body">
+        <div class="job-head">
+          <h3>Supervisor/Assistant Leader:</h3>
+          <span class="period">Entegra Sources Engineering Service, Kathmandu November 2021-October 2022</span>
+        </div>
+        <ul>
+          <li>Coordinated with the project manager to fulfil client requirements.</li>
+          <li>Facilitated juniors to prepare different types of documents.</li>
+          <li>Documented the daily task and updated the team leader.</li>
+          <li>Supported all the members and supervised the work of the designer.</li>
+          <li>Collaborated with the team leader and planned the work.</li>
+          <li>Prepared the daily worksheet of the team and updated the leaders.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Other experience</h2>
+      <div class="job section-body">
+        <div class="job-head">
+          <h3>Trial:</h3>
+          <span class="period">AVIC KDN Airport Engineering Pvt. Ltd., Kathmandu February 2023—February 2023 (20 Days)</span>
+        </div>
+        <ul>
+          <li>Self-learned new software and presented the sectional drawing of the hangar project of Tribhuvan International Airport.</li>
+          <li>Exceeded the provided work by the Team Leader in AutoCAD Civil 3D software.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hobbies &amp; Interests:</h2>
+      <p class="section-body">I play football and futsal regularly, competing in local events and informal matches with my community team. Participating in team sports has helped me develop excellent teamwork, communication, and leadership skills, which I utilise in my professional life.</p>
+    </section>
+
+    <section>
+      <h2>References</h2>
+      <p class="section-body">Available upon request</p>
+    </section>
+  </body>
+</html>
