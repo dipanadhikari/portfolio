@@ -59,11 +59,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .availability { display: inline-flex; align-items: center; gap: 9px; color: #48645c; font-size: 9px; letter-spacing: .12em; font-weight: 700; }
 .availability-dot { width: 7px; height: 7px; border-radius: 50%; background: #78a484; box-shadow: 0 0 0 4px #e2ece1; }
 .hero-profile { display: flex; align-items: center; gap: 15px; margin: 0 0 18px; }
+.hero-identity { min-width: 0; }
 .profile-photo { display: block; width: 70px; height: 70px; flex: 0 0 auto; border: 3px solid white; border-radius: 50%; object-fit: cover; object-position: 36% center; box-shadow: 0 3px 14px rgba(25, 42, 41, .12); }
-.hero-kicker { margin: 0; color: var(--green); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.hero-kicker { margin: 0 0 4px; color: var(--green); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-family: var(--serif); }
-.hero h1 { margin-bottom: 20px; color: var(--ink); font-size: clamp(44px, 5.2vw, 69px); line-height: 1.08; letter-spacing: -.065em; font-weight: 600; }
+.hero h1 { margin-bottom: 0; color: var(--ink); font-size: clamp(38px, 4.4vw, 58px); line-height: 1.08; letter-spacing: -.065em; font-weight: 600; }
 .hero h1 span { color: var(--green); }
 .hero-intro { max-width: 480px; margin-bottom: 26px; color: #64716e; font-size: 14px; line-height: 1.85; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 11px; }
@@ -156,6 +157,7 @@ h1, h2, h3 { font-family: var(--serif); }
 .credentials-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; padding-top: 105px; padding-bottom: 108px; }
 .credentials-intro .section-heading h2 { font-size: 34px; }
 .credentials-intro > p { max-width: 310px; margin: 14px 0 0; color: var(--muted); font-size: 11px; line-height: 1.8; }
+.hobbies-copy { align-self: center; margin: 0; color: #65716d; font-size: 13px; line-height: 1.9; }
 .credential-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .credential-list li { display: flex; gap: 13px; align-items: flex-start; padding: 15px 0; border-bottom: 1px solid var(--line); color: #52615c; font-size: 11px; line-height: 1.6; }
 .credential-check { flex: 0 0 auto; color: var(--green); font-size: 13px; }
@@ -183,7 +185,7 @@ h1, h2, h3 { font-family: var(--serif); }
   .nav-shell, .section-wrap, .footer-inner { width: min(100% - 44px, 680px); }
   .nav-links { gap: 18px; margin-left: 0; }
   .hero { grid-template-columns: 1fr 1fr; gap: 26px; padding-top: 65px; }
-  .hero h1 { font-size: clamp(42px, 6vw, 58px); }
+  .hero h1 { font-size: clamp(38px, 5.2vw, 52px); }
   .blueprint { height: 320px; }
   .about-section { gap: 42px; }
   .experience-card { grid-template-columns: 60px 1fr; }
@@ -200,8 +202,7 @@ h1, h2, h3 { font-family: var(--serif); }
   .nav-contact { font-size: 11px; }
   .hero { display: flex; flex-direction: column; gap: 35px; padding-top: 54px; }
   .hero-copy { padding-bottom: 0; }
-  .hero-kicker { margin-top: 23px; }
-  .hero h1 { font-size: clamp(43px, 12vw, 60px); }
+  .hero h1 { font-size: clamp(34px, 9vw, 50px); }
   .hero-intro { font-size: 13px; }
   .hero-meta { flex-wrap: wrap; margin-top: 24px; font-size: 9px; }
   .hero-visual { width: 100%; }

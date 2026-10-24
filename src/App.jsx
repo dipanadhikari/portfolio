@@ -2,6 +2,18 @@ import React from 'react';
 
 const experiences = [
   {
+    role: 'Placement Engineer',
+    company: 'Costain Engineering & Construction Limited, SCS JV — HS2 project',
+    period: 'October 2026 – Present',
+    highlights: [
+      'Use a Total Station 16 to check excavation profiles, faces and sections, primary and secondary linings, and waterproofing work.',
+      'Inspect the east and west, up-line and down-line tunnels, and update the shift manager.',
+      'Prepare daily reports and share ongoing work updates with the team through TPC software.',
+      'Update inspection check sheets in Zutec, uploading images as evidence of testing and inspection.',
+      'Coordinate with the line manager, shift manager, shift engineer and section engineer to complete allocated tasks on time.',
+    ],
+  },
+  {
     role: 'Site Engineer',
     company: 'AVIC KDN Airport Engineering Pvt. Ltd., Kathmandu',
     period: 'October 2024 – August 2025',
@@ -127,11 +139,13 @@ function App() {
                 src="/images/dipan-adhikari-profile.jpg"
                 alt="Dipan Adhikari wearing safety equipment at a construction site"
               />
-              <p className="hero-kicker">Civil Engineer</p>
+              <div className="hero-identity">
+                <p className="hero-kicker">Civil Engineer</p>
+                <h1>Dipan Adhikari</h1>
+              </div>
             </div>
-            <h1>Dipan Adhikari</h1>
             <p className="hero-intro">
-              A highly skilled Civil Engineer with over three years of diverse experience in site supervision, technical design, and team leadership. My proven track record includes successfully coordinating international teams and translating complex drawings into real-world projects using various engineering software. I am currently advancing my expertise through a postgraduate degree in Civil Engineering with Sustainability with Industrial Placement.
+              A Civil Engineer with over three years of experience in site supervision, technical design, and team leadership. I am currently completing an industrial placement on HS2 with Costain as part of my postgraduate Civil Engineering with Sustainability degree at the University of East London.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contact">
@@ -143,6 +157,8 @@ function App() {
             </div>
             <div className="hero-meta">
               <span>dipanadhikari30@gmail.com</span>
+              <span className="meta-divider" />
+              <a href="https://dipanadhikari10.com.np" target="_blank" rel="noreferrer">Portfolio</a>
               <span className="meta-divider" />
               <a href="https://www.linkedin.com/in/dipan-adhikari-a17b29190" target="_blank" rel="noreferrer">LinkedIn</a>
               <span className="meta-divider" />
@@ -177,7 +193,7 @@ function App() {
               A highly skilled Civil Engineer with over three years of diverse experience in site supervision, technical design, and team leadership. My proven track record includes successfully coordinating international teams and translating complex drawings into real-world projects using various engineering software.
             </p>
             <p>
-              I am currently advancing my expertise through a postgraduate degree in Civil Engineering with Sustainability with Industrial Placement. I am now seeking an industrial placement or part-time role where I can apply my integrated knowledge of sustainable practices and practical project execution to make meaningful contributions to your organisation’s objectives.
+              I am currently completing an industrial placement on the HS2 project with Costain (SCS JV), applying my civil engineering knowledge to tunnel inspection, site coordination, and daily reporting while advancing my expertise in sustainable engineering.
             </p>
           </div>
         </section>
@@ -217,12 +233,16 @@ function App() {
           <SectionHeading eyebrow="03 / EDUCATION" title="Academic background." />
           <div className="education-grid">
             <article className="education-card current-education">
-              <div className="education-topline"><span>2025-PRESENT</span><span>POSTGRADUATE</span></div>
+              <div className="education-topline"><span>2025–2026 · PLACEMENT ONGOING</span><span>POSTGRADUATE</span></div>
               <h3>MSc in Civil Engineering with Sustainability with Industrial Placement</h3>
               <p className="education-school">University of East London</p>
               <div className="module-block">
                 <span className="module-label">MODULES</span>
                 <p>Advanced Structural Analysis, Circular Economy and Sustainability, Environmental Impact Assessment, Mental Wealth Professional Life</p>
+              </div>
+              <div className="module-block">
+                <span className="module-label">INDUSTRIAL PLACEMENT</span>
+                <p>Junior Site Engineer at Costain (SCS JV — HS2)</p>
               </div>
               <div className="dissertation"><span>Dissertation</span><strong>Effect of Corrosion in RC Column</strong></div>
             </article>
@@ -278,12 +298,21 @@ function App() {
           </ul>
         </section>
 
+        <section className="credentials-section section-wrap">
+          <div className="credentials-intro">
+            <SectionHeading eyebrow="07 / HOBBIES & INTERESTS" title="Teamwork beyond work." />
+          </div>
+          <p className="hobbies-copy">
+            I play football and futsal regularly, competing in local events and informal matches with my community team. Participating in team sports has helped me develop excellent teamwork, communication, and leadership skills, which I use in my professional life.
+          </p>
+        </section>
+
         <section className="contact-section" id="contact">
           <div className="section-wrap contact-inner">
             <div>
-              <span className="eyebrow">07 / CONTACT</span>
+              <span className="eyebrow">08 / CONTACT</span>
               <h2>Let&apos;s build something that lasts.</h2>
-              <p>I am now seeking an industrial placement or part-time role where I can apply my integrated knowledge of sustainable practices and practical project execution.</p>
+              <p>I am currently completing an industrial placement on HS2 with Costain, bringing practical site experience and a focus on sustainable engineering.</p>
               <a className="button button-light" href="mailto:dipanadhikari30@gmail.com">
                 Email me <ArrowIcon />
               </a>
@@ -291,6 +320,7 @@ function App() {
             <div className="contact-details">
               <div><span>EMAIL</span><a href="mailto:dipanadhikari30@gmail.com">dipanadhikari30@gmail.com</a></div>
               <div><span>PHONE</span><a href="tel:+447352129589">07352129589</a></div>
+              <div><span>PORTFOLIO</span><a href="https://dipanadhikari10.com.np" target="_blank" rel="noreferrer">dipanadhikari10.com.np <ArrowIcon diagonal /></a></div>
               <div><span>LINKEDIN</span><a href="https://www.linkedin.com/in/dipan-adhikari-a17b29190" target="_blank" rel="noreferrer">linkedin.com/in/dipan-adhikari-a17b29190 <ArrowIcon diagonal /></a></div>
             </div>
           </div>
